@@ -1,0 +1,76 @@
+.col-1{width:8.33%;}
+.col-2{width:16.66%;}
+.col-3{width:25%;}
+.col-4{width:33.33%;}
+.col-5{width:41.66%;}
+.col-6{width:50%;}
+.col-7{width:58.33%;}
+.col-8{width:66.66%;}
+.col-9{width:75%;}
+.col-10{width:83.33%;}
+.col-11{width:91.66%;}
+.col-12{width:100%;}
+
+/* .nav_logo{
+    text-align: left;
+} */
+.nav_heading h1{
+    text-align: left;
+}
+.nav_menu{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.nav_menu a{
+    padding: 5px 10px;
+    margin: 20px 0;
+    background-color: transparent;
+}
+/* navbar end */
+.profile .top-weather-icon{
+    right: 100px;
+    width: 120px;
+    transition:transform 2s;
+}
+.profile .top-weather-icon:hover{
+   width: 140px;
+}
+.profile .bottom-weather-icon{
+    left: 140px;
+    bottom: 20px;
+    width: 120px;
+    transition:transform 2s;
+}
+.profile .bottom-weather-icon:hover{
+    width: 140px;
+}
+.portfolio-desk p{
+    color: gray;
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    margin-bottom: 10px;
+}
+/* profile end */
+.about{
+    width: 100%;
+}
+.about img{
+    margin-top: 100px;
+}
+/* about me end */
+/* .experience{
+    padding: 1% 7%;
+} */
+/* contact me start */
+.box button{
+    width: 150px;
+}
+/* contct end */
+.footer_menu{
+    margin-top: 12px;
+}
+.footer_menu a{
+    display: inline;
+    margin: 10px;
+}
